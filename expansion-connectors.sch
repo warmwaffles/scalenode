@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 7
 Title "Scalenode"
 Date ""
-Rev "1.0.1"
+Rev "1.0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -410,4 +410,26 @@ Text GLabel 4750 5900 0    50   Input ~ 0
 3V3_RPi
 Text GLabel 8325 6000 0    50   Input ~ 0
 3V3_SSD
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_2.5_6.2 MP2
+U 1 1 606358C7
+P 6900 7750
+F 0 "MP2" H 7108 7796 50  0000 L CNN
+F 1 "PCB_Mount_Hole_2.5_6.2" H 7108 7705 50  0000 L CNN
+F 2 "antmicro-footprints:Mount-hole-M2.5" H 7700 8450 50  0001 C CNN
+F 3 "" H 7850 8550 50  0001 C CNN
+	1    6900 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_2.5_6.2 MP3
+U 1 1 606391B7
+P 8400 7750
+F 0 "MP3" H 8608 7796 50  0000 L CNN
+F 1 "PCB_Mount_Hole_2.5_6.2" H 8608 7705 50  0000 L CNN
+F 2 "antmicro-footprints:Mount-hole-M2.5" H 9200 8450 50  0001 C CNN
+F 3 "" H 9350 8550 50  0001 C CNN
+	1    8400 7750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
