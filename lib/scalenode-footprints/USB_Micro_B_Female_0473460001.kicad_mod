@@ -35,7 +35,7 @@
   (pad 3 smd rect (at 0 2.66 270) (size 1.38 0.45) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -0.65 2.66 270) (size 1.38 0.45) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at -1.3 2.66 270) (size 1.38 0.45) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/lib/3d-models/473460001.step
+  (model ${ANT3DMDL}/473460001.step
     (offset (xyz 0 -0.1 1.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

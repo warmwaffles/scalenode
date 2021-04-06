@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 7
 Title "Scalenode"
 Date ""
-Rev "1.0.2"
+Rev "1.0.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -61,10 +61,6 @@ Text GLabel 5725 5600 2    50   Input ~ 0
 HDMI0_HOTPLUG
 Text GLabel 4825 5300 0    50   Input ~ 0
 HDMI1_HOTPLUG
-Text GLabel 5725 4100 2    50   BiDi ~ 0
-GPIO14
-Text GLabel 5725 4200 2    50   BiDi ~ 0
-GPIO15
 $Comp
 L scalenode:QSE-020-01-F-D J1
 U 1 1 600BF3F1
@@ -248,9 +244,9 @@ Wire Wire Line
 Wire Wire Line
 	8775 4850 8325 4850
 Text GLabel 8325 4750 0    50   BiDi ~ 0
-Arty_USB_P
+Adapter_USB_P
 Text GLabel 8325 4850 0    50   BiDi ~ 0
-Arty_USB_N
+Adapter_USB_N
 Wire Wire Line
 	9275 4450 9350 4450
 Wire Wire Line
@@ -411,25 +407,29 @@ Text GLabel 4750 5900 0    50   Input ~ 0
 Text GLabel 8325 6000 0    50   Input ~ 0
 3V3_SSD
 $Comp
-L antmicroMechanicalParts:PCB_Mount_Hole_2.5_6.2 MP2
+L scalenode:PCB_Mount_Hole_2.5_6.2 MP2
 U 1 1 606358C7
 P 6900 7750
 F 0 "MP2" H 7108 7796 50  0000 L CNN
 F 1 "PCB_Mount_Hole_2.5_6.2" H 7108 7705 50  0000 L CNN
-F 2 "antmicro-footprints:Mount-hole-M2.5" H 7700 8450 50  0001 C CNN
+F 2 "scalenode-footprints:Mount-hole-M2.5" H 7700 8450 50  0001 C CNN
 F 3 "" H 7850 8550 50  0001 C CNN
 	1    6900 7750
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:PCB_Mount_Hole_2.5_6.2 MP3
+L scalenode:PCB_Mount_Hole_2.5_6.2 MP3
 U 1 1 606391B7
 P 8400 7750
 F 0 "MP3" H 8608 7796 50  0000 L CNN
 F 1 "PCB_Mount_Hole_2.5_6.2" H 8608 7705 50  0000 L CNN
-F 2 "antmicro-footprints:Mount-hole-M2.5" H 9200 8450 50  0001 C CNN
+F 2 "scalenode-footprints:Mount-hole-M2.5" H 9200 8450 50  0001 C CNN
 F 3 "" H 9350 8550 50  0001 C CNN
 	1    8400 7750
 	1    0    0    -1  
 $EndComp
+Text GLabel 5725 4100 2    50   Input ~ 0
+Adapter_RXD
+Text GLabel 5725 4200 2    50   Output ~ 0
+Adapter_TXD
 $EndSCHEMATC

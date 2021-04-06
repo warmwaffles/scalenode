@@ -40,7 +40,7 @@
   (pad 2 smd rect (at -3.149999 0.635) (size 1.2954 0.889) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 3.149999 0.635) (size 1.2954 0.889) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 3.149999 -0.635) (size 1.2954 0.889) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/lib/3d-models/SSOP4_4P40X2P85.step
+  (model ${ANT3DMDL}/SSOP4_4P40X2P85.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

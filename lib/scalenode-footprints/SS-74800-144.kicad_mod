@@ -65,7 +65,7 @@
   (pad 9 thru_hole circle (at 6.58447 2.744228) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad M thru_hole oval (at -9.85991 13.151183) (size 1.6 3) (drill oval 0.89 2.39) (layers *.Cu *.Mask))
   (pad M thru_hole oval (at 10.01009 13.151183) (size 1.6 3) (drill oval 0.89 2.39) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/lib/3d-models/SS-7800-144.step
+  (model ${ANT3DMDL}/SS-7800-144.step
     (offset (xyz 9.1 -12.3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

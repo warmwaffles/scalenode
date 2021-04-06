@@ -22,7 +22,7 @@
   )
   (pad 1 smd rect (at -1.145 0) (size 1.52 3.05) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.145 0) (size 1.52 3.05) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/lib/3d-models/1210-cap.step
+  (model ${ANT3DMDL}/1210-cap.step
     (offset (xyz -1.6 1.2 0.9))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

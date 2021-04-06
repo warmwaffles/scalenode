@@ -40,7 +40,7 @@
     (options (clearance outline) (anchor circle))
     (primitives
     ))
-  (model ${KIPRJMOD}/lib/3d-models/97730256330.step
+  (model ${ANT3DMDL}/97730256330.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -39,7 +39,7 @@
   )
   (pad A smd rect (at 2 0) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
   (pad K smd rect (at -2 0) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/lib/3d-models/DO-214AC.step
+  (model ${ANT3DMDL}/DO-214AC.step
     (offset (xyz 0 0 1.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
