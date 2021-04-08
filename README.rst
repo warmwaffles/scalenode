@@ -32,7 +32,7 @@ Design status
 =============
 
 The PCB design files were prepared in KiCad.
-Prototypes of revision 1.0.0 are now being manufactured.
+Prototypes of revision 1.0.0 are now being verified.
 
 License
 =======
