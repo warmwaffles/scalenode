@@ -4,9 +4,7 @@ Scalenode platform
 
 Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
 
-.. image:: img/scalenode.png
-   :scale: 60%
-   :align: center
+.. figure:: img/scalenode.jpg
 
 Overview
 ========
