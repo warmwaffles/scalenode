@@ -96,7 +96,7 @@
   (fp_text user 100 (at -8.4 39.7) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
-  (model ${KIPRJMOD}/lib/3d-models/CM4-simple.step
+  (model ${ANT3DMDL}/CM4-simple.step
     (offset (xyz -22 -56.5 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

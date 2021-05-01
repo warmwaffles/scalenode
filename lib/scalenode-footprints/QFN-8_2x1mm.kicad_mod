@@ -30,7 +30,7 @@
   (pad 6 smd rect (at 0.675 0.25) (size 0.55 0.25) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 0.675 -0.25) (size 0.55 0.25) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 0.675 -0.75) (size 0.55 0.25) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/lib/3d-models/QFN-8_2x1.5mm.step
+  (model ${ANT3DMDL}/QFN-8_2x1.5mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

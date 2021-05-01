@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 7 7
 Title "Scalenode"
 Date ""
-Rev "1.0.1"
+Rev "1.0.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -376,14 +376,10 @@ Text GLabel 5250 4900 2    50   Input ~ 0
 GPIO23
 Text GLabel 5250 5000 2    50   Input ~ 0
 GPIO18
-Text GLabel 5250 5100 2    50   Input ~ 0
-GPIO15
 Text GLabel 5250 4600 2    50   Input ~ 0
 GPIO25
 Wire Wire Line
 	4800 5200 4900 5200
-Text GLabel 5250 5300 2    50   Input ~ 0
-GPIO14
 Wire Wire Line
 	4800 5300 5250 5300
 Text GLabel 5250 5400 2    50   Input ~ 0
@@ -432,10 +428,6 @@ Wire Wire Line
 	4800 7100 5250 7100
 Text GLabel 5250 7100 2    50   Input ~ 0
 BT_nDis
-Wire Wire Line
-	4800 7200 5250 7200
-Text GLabel 5250 7200 2    50   Input ~ 0
-nRPIBOOT
 Wire Wire Line
 	4800 7300 5250 7300
 Text GLabel 5250 7300 2    50   Input ~ 0
@@ -997,4 +989,86 @@ Text GLabel 5850 3150 1    50   Input ~ 0
 3V3_RPi
 Text GLabel 3350 6400 0    50   Input ~ 0
 3V3_RPi
+$Comp
+L scalenode:BSS138-7-F Q6
+U 1 1 60A8AC61
+P 6425 7650
+F 0 "Q6" H 6533 7703 60  0000 L CNN
+F 1 "BSS138-7-F" H 6533 7597 60  0000 L CNN
+F 2 "scalenode-footprints:SOT-23-3" H 6625 7850 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30144.pdf" H 6625 7950 60  0001 L CNN
+F 4 "BSS138-7-F" H 6625 8150 60  0001 L CNN "MPN"
+F 5 "Diodes Incorporated" H 6625 8750 60  0001 L CNN "Manufacturer"
+	1    6425 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 7200 6425 7450
+$Comp
+L scalenode:GND #PWR048
+U 1 1 60A9DF5C
+P 6425 8250
+F 0 "#PWR048" H 6425 8000 50  0001 C CNN
+F 1 "GND" H 6430 8077 50  0000 C CNN
+F 2 "" H 6425 8250 50  0001 C CNN
+F 3 "" H 6425 8250 50  0001 C CNN
+	1    6425 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6125 7750 6075 7750
+$Comp
+L scalenode:R_10k_0402 R65
+U 1 1 60ACBBCF
+P 6075 7950
+F 0 "R65" V 6030 8020 60  0000 L CNN
+F 1 "R_10k_0402" H 6075 7800 60  0001 C CNN
+F 2 "scalenode-footprints:0402-res" H 6275 8150 60  0001 L CNN
+F 3 "" H 6075 7950 50  0001 C CNN
+F 4 "VISHAY" H 6275 8350 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 6275 8250 60  0001 L CNN "MPN"
+F 6 "10k" V 6128 8020 50  0000 L CNN "Val"
+	1    6075 7950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6075 7750 6075 7800
+Connection ~ 6075 7750
+Wire Wire Line
+	6075 8100 6075 8125
+Wire Wire Line
+	6075 8125 6425 8125
+Wire Wire Line
+	6425 7850 6425 8125
+Wire Wire Line
+	6425 8125 6425 8250
+Connection ~ 6425 8125
+$Comp
+L scalenode:R_470R_0402 R64
+U 1 1 60B03111
+P 5800 7750
+F 0 "R64" H 5800 7850 60  0000 C CNN
+F 1 "R_470R_0402" H 5800 7600 60  0001 C CNN
+F 2 "scalenode-footprints:0402-res" H 6000 7950 60  0001 L CNN
+F 3 "" H 5800 7750 50  0001 C CNN
+F 4 "VISHAY" H 6000 8150 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402470RFKED" H 6000 8050 60  0001 L CNN "MPN"
+F 6 "470R" H 5800 7650 50  0000 C CNN "Val"
+	1    5800 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 7750 6075 7750
+Text GLabel 5525 7750 0    50   Input ~ 0
+PROG_MODE
+Wire Wire Line
+	4800 7200 6425 7200
+Wire Wire Line
+	5525 7750 5650 7750
+Text GLabel 5250 5300 2    50   Output ~ 0
+RPi_TXD
+Text GLabel 5250 5100 2    50   Input ~ 0
+RPi_RXD
+Text Label 5600 7200 0    50   ~ 0
+nRPi_BOOT
 $EndSCHEMATC

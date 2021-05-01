@@ -46,7 +46,7 @@
   )
   (pad 1 smd roundrect (at -4.2 0) (size 4.4 2.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))
   (pad 2 smd roundrect (at 4.2 0) (size 4.4 2.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))
-  (model ${KIPRJMOD}/lib/3d-models/CP_Elec_10x10.5.step
+  (model ${ANT3DMDL}/CP_Elec_10x10.5.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

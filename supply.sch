@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 5 7
 Title "Scalenode"
 Date ""
-Rev "1.0.1"
+Rev "1.0.3"
 Comp ""
 Comment1 ""
 Comment2 ""

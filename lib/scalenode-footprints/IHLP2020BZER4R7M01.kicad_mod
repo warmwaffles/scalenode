@@ -40,7 +40,7 @@
   (fp_circle (center -4.1402 0) (end -4.064 0) (layer F.SilkS) (width 0.1524))
   (pad 2 smd rect (at 2.032 0 90) (size 2.794 1.9812) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -2.032 0 90) (size 2.794 1.9812) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/lib/3d-models/IND_IHLP-2020BZ_VIS.step
+  (model ${ANT3DMDL}/IND_IHLP-2020BZ_VIS.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 7
 Title "Scalenode"
 Date ""
-Rev "1.0.1"
+Rev "1.0.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1930,8 +1930,6 @@ Wire Wire Line
 Connection ~ 3800 7325
 Wire Wire Line
 	3800 7325 3800 7175
-Text Notes 5450 9525 0    50   ~ 0
-DNP
 Connection ~ 5700 9875
 Wire Wire Line
 	5700 9650 5700 9875
@@ -1953,7 +1951,7 @@ F 3 "" H 5375 9650 50  0001 C CNN
 F 4 "MULTICOMP" H 5575 10050 60  0001 L CNN "Manufacturer"
 F 5 "MCMR12X000_PTL" H 5575 9950 60  0001 L CNN "MPN"
 F 6 "0R" H 5375 9765 50  0000 C CNN "Val"
-F 7 "DNP" H 5375 9650 50  0001 C CNN "Populate"
+F 7 "DNP" H 5375 9650 50  0000 C CNN "DNP"
 	1    5375 9650
 	1    0    0    -1  
 $EndComp
@@ -2468,7 +2466,7 @@ Text GLabel 1775 7200 2    50   Input ~ 0
 Text GLabel 1800 8750 2    50   Input ~ 0
 3V3_RPi
 $Comp
-L power:Earth #PWR0106
+L scalenode:Earth #PWR0106
 U 1 1 603777B8
 P 4125 10125
 F 0 "#PWR0106" H 4125 9875 50  0001 C CNN
@@ -2479,7 +2477,7 @@ F 3 "~" H 4125 10125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR0107
+L scalenode:Earth #PWR0107
 U 1 1 60377DA0
 P 5075 10125
 F 0 "#PWR0107" H 5075 9875 50  0001 C CNN
